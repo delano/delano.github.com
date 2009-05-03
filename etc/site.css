@@ -1,0 +1,24 @@
+
+.eaddr:after { content: "delano\40goldensword.ca"; }
+.phn:after { content: "+1-514-826-7242"; }
+
+body{
+    background:#ffffff;
+    font-family:georgia,helvetica;
+    margin:0px;
+}
+
+a {
+	color: #336699;
+}
+
+#other {
+    padding:8px;
+    margin-top: 20px;
+}
+
+.centered{
+    width:795px;
+    margin:auto;
+}
+
