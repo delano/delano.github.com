@@ -14,8 +14,11 @@ a {
     margin-top: 20px;
 }
 
-.centered{
+.centered {
     width:795px;
     margin:auto;
 }
 
+.heavyduty {
+	  font-weight: bold;
+}
