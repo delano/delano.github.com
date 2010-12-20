@@ -5,7 +5,7 @@ bodyid: note
 
 <div class="entry">
 
-  <p><span class="date">{{ page.date | date: "%b" }} {{ page.date | date: "%Y" }}</span> | <a href="/" title="Delano Mandelbaum">go back</a></p>
+  <div class="date"><p><a href="/" title="Delano Mandelbaum">go back</a> | {{ page.date | date: "%b" }} {{ page.date | date: "%Y" }}</p></div>
   <a href="{{ page.url }}" title="{{ page.title }}"><h2>{{ page.title }}</h2></a>
 
 {{ content }}

@@ -15,7 +15,7 @@ a {
 }
 
 .centered {
-    width:795px;
+    width:680px;
     margin:auto;
 }
 
@@ -23,6 +23,11 @@ a {
     font-weight: bold;
 }
 
+.entry .date {
+  position: relative;
+  display: block;
+  left: -65px;
+}
 .entry .graphic {
   margin-left: 30px;
 }
