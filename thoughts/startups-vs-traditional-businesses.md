@@ -4,9 +4,11 @@ title: Startups vs Traditional Businesses
 date: 2011-06-23
 ---
 
-Starting a company of any kind is difficult. You need to find people to work with you. You need to find people that will pay you and you might need to find people to invest in you. To do that you'll need to differentiate the business from its competition and to do that you'll need to establish a brand and a culture. You're for sure going to have to work outside your comfort zone a lot of time. And you'll probably be exhausted a lot of time. But that's part of the fun.
+Starting a company of any kind is difficult. You need to convince people to work with you and for you. You need to figure out how it will be different from the competition, what kind of culture it should have, and how to make it profitable. You might need to find investors but you'll definitely need to find people to pay you. Regardless of the business, the rule is the same: make more money than you spend.
 
-Startups are different though. Anything can change at any time. That's kinda crazy. When you're starting a restaurant, you have a pretty good idea of what your business is: you serve people food. Okay, what kind of food? What do you need to do that? Let's make a list. You'll need:
+There are also a lot of surprises. This is where startups are unique -- in the variety of surprises.
+
+When you're starting a restaurant, you have a pretty good idea of what the business model is: serving food to hungry customers. : what kind of food? Where will it be located? Why will this kind of work work in that location? 
 
 * Food
 * Someone to prepare the food.
@@ -22,3 +24,6 @@ challenges, opportunities, and a lot of domain knowledge that you need to have o
 Can a chef create a restaurant? Can an architect build and 
 
 It's also preferable to achieve a positive cash-flow.
+
+
+When it comes to a startup, any part of the business can change at any time.
