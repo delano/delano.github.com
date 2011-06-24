@@ -4,7 +4,7 @@ title: Out-of-band Surprises
 date: 2011-06-23
 ---
 
-Starting a new business is difficult. You need to convince people to work with you and for you. You need to figure out how to differentiate it from the competition, how to make it profitable, and you need to consider what kind of culture it should have. You might need to find investors but you'll definitely need to find people to pay you. And you need to make more money than you spend (that's important). No matter what the business -- from a dentist's office to a tech company -- there are common challenges.
+Starting a new business is difficult. You need to convince people to work with you and for you. You need to figure out how to differentiate it from the competition, how to make it profitable, and you need to consider what kind of culture it should have. You might need to find investors but you'll definitely need to find people to pay you. And you need to make more money than you spend (that's important). But no matter what the business -- from a dentist's office to a tech company -- there are common challenges.
 
 And common surprises.
 
