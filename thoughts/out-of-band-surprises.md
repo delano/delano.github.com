@@ -6,7 +6,7 @@ date: 2011-06-23
 
 Starting a new business is difficult. You need to convince people to work with you and for you. You need to figure out how to differentiate it from the competition, how to make it profitable, and you need to consider what kind of culture it should have. You might need to find investors but you'll definitely need to find people to pay you. And you need to make more money than you spend (that's important). No matter what the business -- from a dentist's office to a tech company -- there are common challenges.
 
-And surprises.
+And common surprises.
 
 When you open a restaurant, you have a pretty good idea of what the business model is: serving food to hungry customers. You have a few early decisions: what kind of food will you make? Where will it be located? Why will this kind of food work in that area? Once that's out of the way, you need to design the menu, work out an inventory, develop relationships with suppliers, hire staff. And you'll probably be doing a lot of renovations.
 
