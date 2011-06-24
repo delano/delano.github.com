@@ -12,7 +12,7 @@ When you open a restaurant, you have a pretty good idea of what the business mod
 
 But after the doors open, things change. Contrary to your estimates, you're selling 2-to-1 take-out over sit-down meals. People love the specials but the regular menu is a dud. One of your suppliers is chronically late with a key ingredient. These challenges can be difficult to overcome or even devastating but they're surprises that are within a reasonable context. *You can expect them.* And because you can expect them, you can plan for them.
 
-Out-of-band surprises are different. They're difficult or impossible to imagine where or when they'll appear. *You can't expect them*. Maybe instead of a restaurant, there's a bigger opportunity in importing and distributing that key ingredient. Or maybe after talking to suppliers and potential customers, you found a better business for your niche in catering. Or delivery services. Maybe you accidentally invented a new tomato. Or maybe your star employee got hit by a bus. Who knows? 
+Out-of-band surprises are different. They're difficult or impossible to imagine where or when they'll appear. *You can't expect them*. Maybe instead of a restaurant, there's a bigger opportunity in importing and distributing that key ingredient. Or maybe after talking to suppliers and potential customers, you found a better business for your niche in catering. Or delivery services. Or maybe you accidentally invented a new tomato. Who knows? 
 
 And that's the difference between a startup and the average new business: in a startup, the focus is on finding and chasing the out-of-band surprises rather than executing and managing a pre-ordained business plan. If you look hard enough you might even be able to turn those challenges into opportunities.
 
