@@ -14,6 +14,6 @@ But after the doors open, things change. Contrary to your estimates, you're sell
 
 Out-of-band surprises are different. They're difficult or impossible to imagine where or when they'll appear. *You can't expect them*. Maybe instead of a restaurant, there's a bigger opportunity in importing and distributing that key ingredient. Or maybe after talking to suppliers and potential customers, you found a better business for your niche in catering. Or delivery services. Or maybe you became an expert in point-of-sale devices. Or maybe you invented a new tomato. Or a more efficient way to clean a dishwasher. Who knows? 
 
-And that's the difference between a startup and the average new business: in a startup, the focus is on finding and chasing the out-of-band surprises rather than executing and managing a pre-determined business plan.
+And that's the difference between a startup and the average new business: in a startup, the focus is on finding and chasing the out-of-band surprises rather than executing and managing a pre-ordained business plan.
 
 So go out and find those surprises.
