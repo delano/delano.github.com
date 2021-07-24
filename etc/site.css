@@ -1,4 +1,4 @@
-body{background:#ffffff;font-family:"Google Sans", arial, sans-serif;margin:0px;}
+body{background:#ffffff;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; sans-serif;margin:0px;}
 a{color:#336699;}
 .centered{width:640px;margin:auto;}
 .heavyduty{font-weight:bold;}
