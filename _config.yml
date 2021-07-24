@@ -1,8 +1,13 @@
 destination: ./_site
 auto:        true
-lsi:         true
+lsi:         false
 server_port: 4000
 pygments:    true
-#markdown:    maruku
-markdown: rdiscount
+markdown:    kramdown
 permalink:   pretty
+highlighter: chartreuse
+kramdown:
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: table
+    bold_every: 5

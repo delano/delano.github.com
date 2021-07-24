@@ -1,5 +1,6 @@
-body{background:#ffffff;font-family:georgia,helvetica;margin:0px;}
+body{background:#ffffff;font-family:georgia,serif;margin:0px;}
 a{color:#336699;}
+#home{font-family: Arial, Verdana, sans-serif;}
 #other{padding:8px;margin-top:20px;}
 .centered{width:640px;margin:auto;}
 .heavyduty{font-weight:bold;}
