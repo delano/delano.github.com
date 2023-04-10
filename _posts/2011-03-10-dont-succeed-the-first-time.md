@@ -3,6 +3,7 @@ layout: post
 title: Don't succeed the first time
 permalink: /thoughts/dont-succeed-the-first-time
 date: 2011-03-10
+author: Delano
 ---
 
 
