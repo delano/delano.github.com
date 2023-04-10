@@ -2,6 +2,7 @@
 layout: post
 title: Critiquing Your Work
 permalink: /thoughts/critiquing-your-work
+published: false
 date: 2010-12-01
 ---
 
@@ -14,13 +15,7 @@ So what is good enough?
 Everyone sucks when they first do something. And no matter where you feel your skill level is at, there people better than you, worse than you, and roughly at the same level.
 
 
-
-
-
 Intuitively we know that there's more to getting stuff done than being skilled in a single domain. For example
-
-
-
 
 
 * Fernando Miyata - Brazilian guitarist. Stands out, has his own site. But there many many more.
@@ -49,5 +44,4 @@ This is what matters:
 
 
 
-
-<object width="480" height="360" class="graphic"><param name="movie" value="http://www.youtube.com/v/r7yh5-y5aDA&amp;hl=en&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/r7yh5-y5aDA&amp;hl=en&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="360"></embed></object>
+[label](http://www.youtube.com/v/r7yh5-y5aDA)
