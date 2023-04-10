@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What GitHub's Punch Cards Say (about you)
+permalink: /thoughts/github-punchcards
 date: 2009-05-06
 ---
 
@@ -17,7 +18,7 @@ The punch card says [Mislav](http://github.com/mislav/) works hard! He committed
 
 I thought it would be interesting to see what a punch card looked like over time. I started saving them for a few of my own projects so I could animate them.
 
-### Rye (0.3.1 to 0.6.4) 
+### Rye (0.3.1 to 0.6.4)
 
 [Rye](http://github.com/delano/rye) is a small project that I started on April 4th for executing SSH commands from Ruby. I wrote the core of it over a couple of weekends and then iterated over the following few weeks. You can see that in the animation below.
 
@@ -26,7 +27,7 @@ I thought it would be interesting to see what a punch card looked like over time
 
 ### Rudy (0.4.0 to 0.7.3)
 
-I also saved them for a much larger project, [Rudy](http://github.com/solutious/rudy). I started Rudy in February while doing some deployment work for [Rilli](http://rilli.com/). The first frame is from version 0.4 and the second frame is version 0.5. They're so different that it would be easy to assume I made a mistake generating the animation. That difference represents a month of hard work where I wrote and re-wrote the project several times. 
+I also saved them for a much larger project, [Rudy](http://github.com/solutious/rudy). I started Rudy in February while doing some deployment work for [Rilli](http://rilli.com/). The first frame is from version 0.4 and the second frame is version 0.5. They're so different that it would be easy to assume I made a mistake generating the animation. That difference represents a month of hard work where I wrote and re-wrote the project several times.
 
 <a href="http://github.com/solutious/rudy/graphs/punch_card"><img src="http://farm4.static.flickr.com/3359/3506751705_89f1fb5e38_o.gif" border="0" width="400" height="150" /></a>
 
@@ -34,5 +35,4 @@ I also saved them for a much larger project, [Rudy](http://github.com/solutious/
 
 ## In Conclusion
 
-What I love about the punch cards is that they're both informative and motivational. They give me a better understanding of how I work and how my effort relates to that of other open source developers. When I'm focused on a goal like getting the next version out the door, I occasionally forget what I went through to get there. The punch cards help me remember. 
-
+What I love about the punch cards is that they're both informative and motivational. They give me a better understanding of how I work and how my effort relates to that of other open source developers. When I'm focused on a goal like getting the next version out the door, I occasionally forget what I went through to get there. The punch cards help me remember.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Consider the 6 Axioms of Documentation
+permalink: /thoughts/the-6-axioms-of-documentation
 date: 2021-07-23
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Critiquing Your Work
+permalink: /thoughts/critiquing-your-work
 date: 2010-12-01
 ---
 
@@ -50,5 +51,3 @@ This is what matters:
 
 
 <object width="480" height="360" class="graphic"><param name="movie" value="http://www.youtube.com/v/r7yh5-y5aDA&amp;hl=en&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/r7yh5-y5aDA&amp;hl=en&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="360"></embed></object>
-
-

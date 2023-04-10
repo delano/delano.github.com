@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to put invite codes on business cards
+permalink: /thoughts/invite-codes
 date: 2009-05-24
 ---
 
@@ -10,7 +11,7 @@ When I started working on [Stella](/projects/stella/) last year, my initial plan
 
 * Generate the invite codes
 * Batch create images
-* Print the cards with [Moo](http://moo.com/) 
+* Print the cards with [Moo](http://moo.com/)
 
 ### Generate the Invite Codes ###
 
@@ -21,7 +22,7 @@ I wrote a short Ruby script to generate the invite codes in the format `in-XXXXX
 
 # Description: Invite code generator
 # Usage: ruby genvites [code length] [count]
-# 
+#
 # e.g.
 #
 # $ ruby genvites 6 3
@@ -29,7 +30,7 @@ I wrote a short Ruby script to generate the invite codes in the format `in-XXXXX
 # in-enh4v4
 # in-7jjab1
 
-LENGTH = (ARGV.shift || 6).to_i 
+LENGTH = (ARGV.shift || 6).to_i
 COUNT  = (ARGV.shift || 50).to_i
 
 # An Array with ambiguous characters removed: i, l, o, 0, 1
@@ -40,7 +41,7 @@ def strand(len, str='')
    str.size == len ? str : strand(len, str)
 end
 
-COUNT.times do 
+COUNT.times do
   puts "in-#{strand(LENGTH)}"
 end
 {% endhighlight %}
@@ -65,13 +66,13 @@ I used Photoshop so that's the process I describe here but you can use any metho
 
 <a class="graphic" href="http://farm4.static.flickr.com/3354/3572255315_f828787ed4_o.png"><img src="http://farm4.static.flickr.com/3354/3572255315_b97eba8481_m.jpg" alt="Photoshop: Image Example" border="0" /></a>
 
-**Step 3:** Add a variable for that layer using *Image &gt; Variables &gt; Define*. The name of the variable needs to match the name of the column (i.e. "InviteCode"). 
+**Step 3:** Add a variable for that layer using *Image &gt; Variables &gt; Define*. The name of the variable needs to match the name of the column (i.e. "InviteCode").
 
 <a class="graphic" href="http://farm4.static.flickr.com/3330/3569725337_f741cac35f_o.png"><img src="http://farm4.static.flickr.com/3330/3569725337_85832200e2_m.jpg" alt="Photoshop -&gt; Image -&gt; Variables -&gt; Define" border="0" /></a>
 <br/>
 <a class="graphic" href="http://farm4.static.flickr.com/3613/3569725403_7bc9330090_o.png"><img src="http://farm4.static.flickr.com/3613/3569725403_1436288125_m.jpg" alt="Photoshop: Define Variables" border="0" /></a>
 
-**Step 4:** Import the CSV file from *Image &gt; Variables &gt; Data Sets* or click "Next" in the *Define* screen. Click the "Import..." button and make sure the two checkboxes are checked ("Use first column" and "Replace existing datasets"). 
+**Step 4:** Import the CSV file from *Image &gt; Variables &gt; Data Sets* or click "Next" in the *Define* screen. Click the "Import..." button and make sure the two checkboxes are checked ("Use first column" and "Replace existing datasets").
 
 <a class="graphic" href="http://farm4.static.flickr.com/3649/3569725463_922facf613_o.png"><img src="http://farm4.static.flickr.com/3649/3569725463_7e6dd9e25e_m.jpg" alt="Photoshop: Import Data" border="0" /></a>
 
@@ -79,22 +80,22 @@ I used Photoshop so that's the process I describe here but you can use any metho
 
 <a class="graphic" href="http://farm4.static.flickr.com/3323/3569725537_c2706cee5e_o.png"><img src="http://farm4.static.flickr.com/3323/3569725537_cc920f2fc3_m.jpg" alt="Photoshop: Export Files" border="0" /></a>
 
-**Step 6:** Convert the PSD files to JPG with *File &gt; Scripts &gt; Image Processor*. Select the input folder containing the PSD files, JPG encoding, and the quality. 
+**Step 6:** Convert the PSD files to JPG with *File &gt; Scripts &gt; Image Processor*. Select the input folder containing the PSD files, JPG encoding, and the quality.
 
 <a class="graphic" href="http://farm4.static.flickr.com/3593/3569852523_955101ee51_o.png"><img src="http://farm4.static.flickr.com/3593/3569852523_1e6a33da4b_m.jpg" border="0" alt="Photoshop: Convert PSD to JPG" /></a>
 
 
 ### Take it to the printers ###
 
-It's now time to [start the printing process](http://www.moo.com/en/projects/) with Moo <a href="#[2]">[2]</a>. Their interface is pretty self-explanatory so I'll only mention a few things here. 
+It's now time to [start the printing process](http://www.moo.com/en/projects/) with Moo <a href="#[2]">[2]</a>. Their interface is pretty self-explanatory so I'll only mention a few things here.
 
-If you're going with business cards, they have two batch sizes: 50 and 200. Obviously it's cheaper per card to get 200, but they have a limit of 50 unique images (i.e. invite codes) so you'll end up with duplicates (the other card types, like the mini cards allow up to 100 unique images). 
+If you're going with business cards, they have two batch sizes: 50 and 200. Obviously it's cheaper per card to get 200, but they have a limit of 50 unique images (i.e. invite codes) so you'll end up with duplicates (the other card types, like the mini cards allow up to 100 unique images).
 
 They have several ways to upload photos, including via Flickr. I chose to go the manual route and upload all 50 photos to Moo. My guess is it's probably easier to use a Flickr upload tool, but I haven't tried it. After you've uploaded the photos, you'll be asked to "Add Text". You can enter your business name and contact info here using one of their preset templates or you can upload another image to use instead. If you're uploading an image, you'll need to use the full landscape template as shown here:
 
 <a class="graphic" href="http://farm3.static.flickr.com/2425/3570537526_3e6a29dbd4_o.png"><img src="http://farm3.static.flickr.com/2425/3570537526_32d0fd2f85_m.jpg" border="0" alt="Moo: Select Template" /></a>
 
-The only remaining choice is the type of paper: "Green" or "Classic". A few observations: the 100% recycled paper is chlorine free and has a flat, matte finish. The classic is "elemental chlorine free" and is a bit shiny and fancier looking. I don't understand the environmental implications of either choice so if I don't consider the environment, I'd choose the classic. If the recycled paper does offer an environmental benefit I'd go with that. It's not that the green is unattractive it's just that the classic is more attractive. 
+The only remaining choice is the type of paper: "Green" or "Classic". A few observations: the 100% recycled paper is chlorine free and has a flat, matte finish. The classic is "elemental chlorine free" and is a bit shiny and fancier looking. I don't understand the environmental implications of either choice so if I don't consider the environment, I'd choose the classic. If the recycled paper does offer an environmental benefit I'd go with that. It's not that the green is unattractive it's just that the classic is more attractive.
 
 ## Conclusion ##
 
@@ -107,4 +108,3 @@ And that's how I put unique invite codes on business cards. It's a bit of work, 
 <p><a name="[1]">&nbsp;</a> [1] I kept track of the codes that I gave out so they'll still work when we do release a product. It's kind of annoying to keep a business card around for an indefinite period of time so if you have one (or had one) just send me an email whenever the time comes and we'll figure it out.</p>
 
 <p><a name="[2]">&nbsp;</a> [2] I recommend Moo because I don't know of any other printer that can produce business cards with unique images for $21.99 (USD). If there are others, let me know!</p>
-
