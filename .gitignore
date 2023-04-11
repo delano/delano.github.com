@@ -1,6 +1,7 @@
 .vscode/
 .history/
 .devcontainer/
+.wip/
 _site
 .sass-cache
 .jekyll-cache
@@ -8,3 +9,4 @@ _site
 vendor
 *~
 *-
+
