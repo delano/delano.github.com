@@ -1,11 +1,13 @@
-name: "Deploy Jekyll site to GitHub Pages (aftermarket Jekyll Action)"
+# Based on https://github.com/helaili/jekyll-action
+
+name: "Update website (aftermarket action)"
 
 on:
   gollum:
 
   push:
     branches:
-      - "$default-branch"
+      - $default-branch
       - develop
 
   pull_request:
@@ -23,7 +25,7 @@ on:
 # in-progress and latest queued. However, do NOT cancel in-progress runs as
 # we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -34,7 +36,9 @@ jobs:
   # See: https://github.com/helaili/jekyll-action
   #
   github-pages:
-    runs-on: ubuntu-latest
+
+    runs-on: ubuntu-22.04
+
     steps:
       - uses: actions/checkout@v2
 
@@ -48,4 +52,4 @@ jobs:
 
       - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.JEKYLL_PAT }}
