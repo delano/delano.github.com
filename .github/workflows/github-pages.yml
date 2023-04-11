@@ -1,0 +1,73 @@
+# Based on "Workflow for building and deploying a Jekyll site to GitHub Pages"
+# https://github.com/actions/starter-workflows/tree/5f2e5550
+name: Build and deploy Jekyll site to GitHub Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: [$default-branch]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run
+# in-progress and latest queued. However, do NOT cancel in-progress runs as
+# we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+
+  ##
+  # Build job
+  #
+  # This job builds the Jekyll site and uploads the resulting _site directory
+  # as an artifact. This artifact is then used by the deployment job.
+  #
+  # Steps are based on "Configure Pages" and "Build Pages" actions:
+  #   - https://github.com/actions/configure-pages/blob/main/action.yml
+  #   - https://github.com/actions/jekyll-build-pages
+  #   - https://github.com/actions/upload-pages-artifact
+  #
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+
+  ##
+  # Deployment job
+  #
+  # This job deploys the Jekyll site to GitHub Pages. It uses the artifact
+  # created by the build job.
+  #
+  # Steps are based on "Deploy Pages" action:
+  #   - https://github.com/actions/deploy-pages
+  #
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
