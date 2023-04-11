@@ -5,3 +5,5 @@
 layout: home
 list_title: "Posts"
 ---
+
+<img src="/assets/img/delano.svg" width="256px">
