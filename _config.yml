@@ -11,9 +11,14 @@
 
 title: '"I ❤️ building teams" - Delano Mandelbaum'
 
-author:
-  name: Delano Mandelbaum
-  email: "delano@onetimesecret.com"
+# Minima 3.0
+# author:
+#   name: Delano Mandelbaum
+#   email: "delano@onetimesecret.com"
+
+# Minima 2.5 (legacy)
+author: Delano
+email: delano@onetimesecret.com
 
 url: "https://delanotes.com"
 baseurl: ""
