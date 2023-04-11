@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/jekyll/minima.git
+  revision: 2863624b903b17f838d6ce8d2f77900fa9d3c864
+  ref: 2863624b90
+  specs:
+    minima (3.0.0.dev)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,6 +21,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
+    google-protobuf (3.22.2-arm64-darwin)
     google-protobuf (3.22.2-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -48,10 +59,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
@@ -61,6 +68,8 @@ GEM
     rexml (3.2.5)
     rouge (4.1.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.61.0-arm64-darwin)
+      google-protobuf (~> 3.21)
     sass-embedded (1.61.0-x86_64-linux-gnu)
       google-protobuf (~> 3.21)
     terminal-table (3.0.2)
@@ -69,16 +78,13 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
-  http_parser.rb (~> 0.6.0)
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.3)
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
-  tzinfo (>= 1, < 3)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  minima!
 
 BUNDLED WITH
    2.3.26
