@@ -1,3 +1,12 @@
-_site
-*~
 .DS_Store
+.devcontainer
+.history
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.vscode
+.wip
+_site
+vendor
+*~
+*-
