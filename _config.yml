@@ -22,8 +22,25 @@ twitter_username: solutious
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
+
+
+minima:
+  # Enable or disable the site header
+  header_enabled: true
+  header_pages:
+    - about.md
+
+  # See: http://shopify.github.io/liquid/filters/date/
+  date_format: "%b %-d, %Y"
+
+  # One of: auto, classic, dark, solarized, solarized-light, solarized-dark
+  # If auto, adaptive skin based on the default classic and dark skins.
+  skin: auto
+
+
 
 defaults:
   - scope:
