@@ -1,15 +1,23 @@
-name: Jekyll site CI
+name: Build check
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+      - develop
+
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+      - develop
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - uses: actions/checkout@v3
