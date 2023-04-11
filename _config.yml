@@ -44,6 +44,10 @@ minima:
     - { platform: github,  user_url: "https://github.com/delano" }
     - { platform: twitter, user_url: "https://twitter.com/solutious" }
     - { platform: linkedin, user_url: "https://linkedin.com/in/solutious" }
+    - platform: hn  # same as SVG filename.
+      user_url: "https://news.ycombinator.com/user?id=delano"
+      title:  "Hacker News"
+
 
 defaults:
   - scope:
