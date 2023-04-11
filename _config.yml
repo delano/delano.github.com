@@ -9,29 +9,34 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
 
-title: I ❤️ building teams | Delanotes
+title: '"I ❤️ building teams" - Delano Mandelbaum'
 
 author:
   name: Delano Mandelbaum
   email: "delano@onetimesecret.com"
 
-url: "https://delanotes.com"  # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: ""  # the subpath of your site, e.g. /blog
-show_excerpts: false  # set to true to show excerpts on the homepage
-description: >- # this means to ignore newlines until "baseurl:"
+url: "https://delanotes.com"
+baseurl: ""
+show_excerpts: false
+collections:
+  posts:
+    output: true
+description: >-
   I'm a software engineering manager known for building healthy, high-performing teams.
 
+##
 # Build settings
+#
+
 theme: minima
 
-plugins:
-  - jekyll-feed
+# Enable or disable the site header
+header_enabled: true
+header_pages:
+  - about.md
 
+# Theme settings
 minima:
-  # Enable or disable the site header
-  header_enabled: true
-  header_pages:
-    - about.md
 
   # See: http://shopify.github.io/liquid/filters/date/
   date_format: "%b %-d, %Y"
@@ -41,13 +46,15 @@ minima:
   skin: auto
 
   social_links:
-    - { platform: github,  user_url: "https://github.com/delano" }
-    - { platform: twitter, user_url: "https://twitter.com/solutious" }
-    - { platform: linkedin, user_url: "https://linkedin.com/in/solutious" }
+    - platform: github
+      user_url: "https://github.com/delano"
+    - platform: twitter
+      user_url: "https://twitter.com/solutious"
+    - platform: linkedin
+      user_url: "https://linkedin.com/in/solutious"
     - platform: hn  # same as SVG filename.
       user_url: "https://news.ycombinator.com/user?id=delano"
       title:  "Hacker News"
-
 
 defaults:
   - scope:
