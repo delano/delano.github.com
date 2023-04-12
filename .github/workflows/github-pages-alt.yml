@@ -40,10 +40,10 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Enable caching of Ruby gems
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
@@ -52,8 +52,9 @@ jobs:
 
       - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
-          token: ${{ secrets.JEKYLL_PAT }}
-          target_branch: 'gh-pages'
+          target_branch: gh-pages
+          keep_history: true
+          token: ${{ secrets.GITHUB_TOKEN }}
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
           JEKYLL_ENV: production
