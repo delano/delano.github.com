@@ -39,6 +39,12 @@ jobs:
 
     runs-on: ubuntu-22.04
 
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
     steps:
       - uses: actions/checkout@v3
 
