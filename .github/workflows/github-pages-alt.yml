@@ -52,7 +52,6 @@ jobs:
 
       - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
-          target_branch: gh-pages
           keep_history: true
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
