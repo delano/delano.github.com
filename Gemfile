@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rubygems-update", "~> 3.3.22"
+gem "rubygems", "~> 3.3.22"
 
 gem "jekyll", "~> 4.3"
 
