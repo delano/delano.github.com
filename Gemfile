@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "rubygems-update", "~> 3.4"
+
 gem "jekyll", "~> 4.3"
 
 # Jekyll plugins are loaded right after jekyll itself so any plugin that
