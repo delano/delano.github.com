@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gem "rubygems-update", "~> 3.4"
-
 gem "jekyll", "~> 4.3"
 
 # Jekyll plugins are loaded right after jekyll itself so any plugin that
@@ -14,4 +12,4 @@ end
 
 # Use unreleased minima v3 theme
 # See: https://github.com/jekyll/minima/tree/2863624b903b17f838d6ce8d2f77900fa9d3c864#readme
-gem "minima", git: 'https://github.com/jekyll/minima.git', ref: '2863624b90'
+gem "minima", git: 'https://github.com/delano/minima.git', branch: 'hotfix/v3-sass-rubygems'
