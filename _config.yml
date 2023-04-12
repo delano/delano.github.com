@@ -1,8 +1,81 @@
-destination: ./_site
-auto:        true
-lsi:         true
-server_port: 4000
-pygments:    true
-#markdown:    maruku
-markdown: rdiscount
-permalink:   pretty
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+
+title: '"I ❤️ building teams" - Delano Mandelbaum'
+
+# Minima 3.0
+# author:
+#   name: Delano Mandelbaum
+#   email: "delano@onetimesecret.com"
+
+# Minima 2.5 (legacy)
+author: Delano
+email: delano@onetimesecret.com
+
+url: "https://delanotes.com"
+baseurl: ""
+show_excerpts: false
+collections:
+  posts:
+    output: true
+description: >-
+  I'm a software engineering manager known for building healthy, high-performing teams.
+
+##
+# Build settings
+#
+
+theme: minima
+
+# Enable or disable the site header
+header_enabled: true
+header_pages:
+  - about.md
+
+# Theme settings
+minima:
+
+  # See: http://shopify.github.io/liquid/filters/date/
+  date_format: "%b %-d, %Y"
+
+  # One of: auto, classic, dark, solarized, solarized-light, solarized-dark
+  # If auto, adaptive skin based on the default classic and dark skins.
+  skin: auto
+
+  social_links:
+    - platform: github
+      user_url: "https://github.com/delano"
+    - platform: twitter
+      user_url: "https://twitter.com/solutious"
+    - platform: linkedin
+      user_url: "https://linkedin.com/in/solutious"
+    - platform: hn  # same as SVG filename.
+      user_url: "https://news.ycombinator.com/user?id=delano"
+      title:  "Hacker News"
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Exclude from processing.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list". Excluded items can be processed by explicitly
+# listing the directories or their entries' file path in the `include:` list.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
