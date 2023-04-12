@@ -39,17 +39,11 @@ jobs:
 
     runs-on: ubuntu-22.04
 
-    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-
     steps:
       - uses: actions/checkout@v3
 
       - run: |
-          gem install rubygems-update --no-document -v 3.4
+          sudo gem install rubygems-update --no-document -v 3.4
 
       # Enable caching of Ruby gems
       - uses: actions/cache@v3
