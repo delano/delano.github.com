@@ -42,9 +42,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: |
-          sudo gem install rubygems-update --no-document -v 3.4
-
       # Enable caching of Ruby gems
       - uses: actions/cache@v3
         with:
