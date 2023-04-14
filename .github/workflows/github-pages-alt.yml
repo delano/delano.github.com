@@ -40,16 +40,23 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+
+      - run: |
+          sudo gem install rubygems-update --no-document -v 3.4
 
       # Enable caching of Ruby gems
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
+      - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
-          token: ${{ secrets.JEKYLL_PAT }}
+          keep_history: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+          JEKYLL_ENV: production
