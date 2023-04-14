@@ -42,9 +42,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: |
-          sudo gem install rubygems-update --no-document -v 3.4
-
       # Enable caching of Ruby gems
       - uses: actions/cache@v3
         with:
@@ -53,8 +50,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
+      - uses: delano/jekyll-action@2.5.0-dev    # Choose any one of the Jekyll Actions
+        with:                                   # Some relative inputs of your action
           keep_history: true
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
