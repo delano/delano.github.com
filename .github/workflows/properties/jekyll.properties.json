@@ -1,0 +1,10 @@
+{
+  "name": "Jekyll",
+  "description": "Package a Jekyll site.",
+  "iconName": "jekyll-tube",
+  "creator": "Github",
+  "categories": [
+    "Pages",
+    "Jekyll"
+  ]
+}
